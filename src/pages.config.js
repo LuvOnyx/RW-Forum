@@ -29,3 +29,4 @@ export const pagesConfig = {
     Layout: Layout,
 };
 
+
