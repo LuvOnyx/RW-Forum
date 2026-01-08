@@ -8,6 +8,7 @@ import Support from './pages/Support.jsx';
 import Profile from './pages/Profile.jsx';
 import ModLog from './pages/ModLog.jsx';
 import EditProfile from './pages/EditProfile.jsx';
+import Layout from './Layout.js';
 
 export const PAGES = {
   home: Home,
@@ -25,4 +26,6 @@ export const PAGES = {
 export const pagesConfig = {
   Pages: PAGES,
   mainPage: "home",
+    Layout: Layout,
 };
+
